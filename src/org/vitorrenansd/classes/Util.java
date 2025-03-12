@@ -24,17 +24,22 @@ public class Util extends Operacoes {
         // Switch case para fazer o calculo e printar no terminal
         if (calc.equals("+")) {
             System.out.println(x + " + " + y + " = " + op.adicao(x, y));
+            scan.close();
         }
         else if (calc.equals("-")) {
             System.out.println(x + " - " + y + " = " + op.subtracao(x, y));
+            scan.close();
         }
         else if (calc.equals("*")) {
             System.out.println(x + " * " + y + " = " + op.multiplicacao(x, y));
+            scan.close();
         }
         else if (calc.equals("/")) {
             System.out.println(x + " / " + y + " = " + op.divisao(x, y));
+            scan.close();
         } else {
             System.out.println("Por favor selecione um simbolo valido");
+            scan.close();
         } 
     }
 }
