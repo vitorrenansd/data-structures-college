@@ -1,3 +1,5 @@
+package org.vitorrenansd;
+
 import java.util.Scanner;
 
 public class Main {
