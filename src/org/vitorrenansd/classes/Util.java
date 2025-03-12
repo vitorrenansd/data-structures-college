@@ -11,7 +11,7 @@ public class Util extends Operacoes {
         Scanner scan = new Scanner(System.in);
         Operacoes op = new Operacoes();
 
-        // Inicio do codigo, pedindo info do usuario
+        // Pedindo info do usuario
         System.out.print("Primeiro valor: ");
         float x = scan.nextFloat();
 
@@ -19,9 +19,9 @@ public class Util extends Operacoes {
         float y = scan.nextFloat();
 
         System.out.print("Escolha um simbolo para calcular (+, -, *, /): ");
-        String calc = scan.nextLine();
+        String calc = scan.next();
 
-        // Switch case do calculo
+        // Switch case para fazer o calculo e printar no terminal
         if (calc.equals("+")) {
             System.out.println(x + " + " + y + " = " + op.adicao(x, y));
         }
@@ -34,7 +34,7 @@ public class Util extends Operacoes {
         else if (calc.equals("/")) {
             System.out.println(x + " / " + y + " = " + op.divisao(x, y));
         } else {
-            System.out.println("Selecione um simbolo valido");
+            System.out.println("Por favor selecione um simbolo valido");
         } 
     }
 }
