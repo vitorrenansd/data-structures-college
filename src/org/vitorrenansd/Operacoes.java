@@ -4,7 +4,6 @@ public class Operacoes {
     public Operacoes() {
     }
 
-
     public void adicao(float x, float y) {
         System.out.println(x + " + " + y + " = " + (x + y));
     }
@@ -17,5 +16,4 @@ public class Operacoes {
     public void divisao(float x, float y) {
         System.out.println(x + " / " + y + " = " + (x / y));
     }
-
 }
