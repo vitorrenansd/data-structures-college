@@ -1,9 +1,7 @@
-package org.vitorrenansd.classes;
+package ies.calculator.classes;
 
 public class Operacoes {
-    protected Operacoes() {
-    }
-
+    
     protected float adicao(float x, float y) {
         return (x + y);
     }

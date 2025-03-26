@@ -1,11 +1,9 @@
-package org.vitorrenansd.classes;
+package ies.calculator.classes;
 
 import java.util.Scanner;
 
 public class Util extends Operacoes {
-    public Util() {
-    }
-
+    
     public void userCalculo() {
         // Instancia das classes necessarias
         Scanner scan = new Scanner(System.in);
@@ -14,10 +12,8 @@ public class Util extends Operacoes {
         // Pedindo info do usuario
         System.out.print("Primeiro valor: ");
         float x = scan.nextFloat();
-
         System.out.print("Segundo valor: ");
         float y = scan.nextFloat();
-
         System.out.print("Escolha um simbolo para calcular (+, -, *, /): ");
         String calc = scan.next();
 

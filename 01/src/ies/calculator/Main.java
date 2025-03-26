@@ -1,6 +1,6 @@
-package org.vitorrenansd;
+package ies.calculator;
 
-import org.vitorrenansd.classes.Util;
+import ies.calculator.classes.Util;
 
 public class Main {
     public static void main(String[] args) {
