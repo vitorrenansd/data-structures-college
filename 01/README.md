@@ -1,11 +1,11 @@
-# calculator-facul
+# calculator
 
-## 📌 Funcionalidades
+## Funcionalidades
 
 - Operações matemáticas básicas: soma, subtração, multiplicação e divisão.
-- Interface simples e intuitiva.
+- Interface simples direto no terminal.
 
-## 🚀 Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - **Linguagem:** Java
 - **Classes/Bibliotecas:** java.util.Scanner
@@ -15,5 +15,3 @@
 Este projeto está sob a licença MIT.
 
 ---
-
-Feito com ❤️ por Vitor(https://github.com/VitorRenanSD)!
