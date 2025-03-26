@@ -4,5 +4,6 @@ This repository contains all my assignments from the Data Structures course at u
 ## Assignments
 - **01**: Simple calculator in Java using OOP
 - **02**: Structs in C
+- **03**: Manipulating arraylists in Java using OOP
 
 Feel free to check each folder for details!
