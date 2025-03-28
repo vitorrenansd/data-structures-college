@@ -1,20 +1,26 @@
 package ies.calculator;
 
+// Base
 import javax.swing.JPanel;
 import javax.swing.JTextField;
 import javax.swing.JButton;
 import java.awt.GridLayout;
 import java.awt.BorderLayout;
-
 // Design
 import java.awt.Color;
 import java.awt.Font;
 import java.awt.Dimension;
 
 public class Panel extends JPanel {
-    private JTextField display;
+    protected JTextField display;
+    protected Operation operation;
+    protected Float firstNumber = null;
+    protected String currentOperation = null;
+    protected boolean isNewNumber = true;
 
     public Panel() {
+        operation = new Operation();
+
         // Configures the main layout
         setLayout(new BorderLayout());
         setBackground(Color.DARK_GRAY);
@@ -62,6 +68,7 @@ public class Panel extends JPanel {
             }
 
             button.setBorder(javax.swing.BorderFactory.createLineBorder(Color.BLACK, 1));
+            button.addActionListener(new ButtonListener(this));
             buttonPanel.add(button);
         }
 
