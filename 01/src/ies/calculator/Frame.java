@@ -3,7 +3,6 @@ package ies.calculator;
 import javax.swing.JFrame;
 
 public class Frame extends JFrame{
-    
     public Frame() {
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setTitle("Calculator");
