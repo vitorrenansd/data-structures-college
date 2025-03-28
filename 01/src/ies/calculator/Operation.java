@@ -11,6 +11,9 @@ public class Operation {
         return (x * y);
     }
     protected Float div(Float x, Float y) {
+        if (y == 0) {
+            throw new ArithmeticException("stupid ass nigga");
+        }
         return (x / y);
     }
 }
