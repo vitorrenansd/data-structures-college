@@ -7,5 +7,6 @@ def sort(arr):
                 swapped = True
         if not swapped:
             break
+    return arr
 
 ## BubbleSort implementation from https://www.geeksforgeeks.org/python-program-for-bubble-sort/

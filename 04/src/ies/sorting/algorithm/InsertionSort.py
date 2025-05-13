@@ -6,5 +6,6 @@ def sort(arr):
             arr[j + 1] = arr[j]
             j -= 1
         arr[j + 1] = key
+    return arr
 
 # InsertionSort implementation from https://www.geeksforgeeks.org/insertion-sort-algorithm/

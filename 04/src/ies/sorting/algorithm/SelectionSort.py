@@ -14,5 +14,6 @@ def sort(arr):
         # Move minimum element to its
         # correct position
         arr[i], arr[minIdx] = arr[minIdx], arr[i]
+    return arr
 
 # SelectionSort implementation from https://www.geeksforgeeks.org/selection-sort-algorithm-2/
