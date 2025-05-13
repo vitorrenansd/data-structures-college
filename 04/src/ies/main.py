@@ -1,6 +1,6 @@
-import sorting.algorithm.BubbleSort as bubbleClass;
-import sorting.algorithm.InsertionSort as insertionClass;
-import sorting.algorithm.SelectionSort as selectionClass;
+import algorithm.BubbleSort as bubbleClass;
+import algorithm.InsertionSort as insertionClass;
+import algorithm.SelectionSort as selectionClass;
 
 data = [3, 4, 9, 2, 5, 1, 8]
 
