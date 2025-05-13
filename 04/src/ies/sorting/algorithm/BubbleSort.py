@@ -1,4 +1,4 @@
-def bubbleSort(arr):
+def sort(arr):
     for n in range(len(arr) - 1, 0, -1):
         swapped = False  
         for i in range(n):
