@@ -1,19 +1,16 @@
 def sort(arr):
+    arr = arr.copy()
+    step = 1
     n = len(arr)
     for i in range(n - 1):
         minIdx = i
-        
-        # Iterate through the unsorted portion
-        # to find the actual minimum
         for j in range(i + 1, n):
             if arr[j] < arr[minIdx]:
-              
-                # Update min_idx if a smaller element is found
                 minIdx = j
-        
-        # Move minimum element to its
-        # correct position
-        arr[i], arr[minIdx] = arr[minIdx], arr[i]
+        if minIdx != i:
+            arr[i], arr[minIdx] = arr[minIdx], arr[i]
+        print(f'SelectionSorting. Step {step}: {arr}')
+        step += 1 
     return arr
 
 # SelectionSort implementation from https://www.geeksforgeeks.org/selection-sort-algorithm-2/
