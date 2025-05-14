@@ -9,8 +9,8 @@ This repository contains all my assignments from the Data Structures course at u
 ## NP2
 - **04**: Implementation of BubbleSort, InsertionSort, and SelectionSort algorithms in Python, with step-by-step output
 - **05**: Lua program that defines a `Matrix` class, allowing users to fill a matrix with values and count the number of non-zero elements
-- **06**: 
-- **07**:
+- **06**: Python implementation of a Binary Search Tree with recursive methods for inserting and searching values
+- **07**: Lua implementation of Sequential and Binary Search algorithms, returning all indices where a given key appears in a sorted list
 - **08**:
 
 Feel free to check each folder for details!
