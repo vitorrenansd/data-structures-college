@@ -24,7 +24,7 @@ end
 function Matrix:fill()
     for i = 1, self.rows do
         for j = 1, self.cols do
-            io.write(string.format("Enter value for position [%d][%d]: ", i, j))
+            io.write(string.format("Enter value for position [%d][%d]: ", i-1, j-1))
             local value = tonumber(io.read())
             self.data[i][j] = value or 0
         end
