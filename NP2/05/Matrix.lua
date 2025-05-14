@@ -43,3 +43,5 @@ function Matrix:countNonZero()
     end
     return count
 end
+
+return Matrix
