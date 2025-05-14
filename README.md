@@ -7,9 +7,9 @@ This repository contains all my assignments from the Data Structures course at u
 - **02**: Structs in C
 - **03**: Manipulating arraylists in Java using OOP
 ## NP2
-- **04**:
-- **05**:
-- **06**:
+- **04**: Implementation of BubbleSort, InsertionSort, and SelectionSort algorithms in Python, with step-by-step output
+- **05**: Lua program that defines a `Matrix` class, allowing users to fill a matrix with values and count the number of non-zero elements
+- **06**: 
 - **07**:
 - **08**:
 
