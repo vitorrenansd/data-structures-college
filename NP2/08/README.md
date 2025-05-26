@@ -1,0 +1,3 @@
+## Conclusion
+
+We applied the classic QuickSort algorithm to sort an array of file names. The algorithm performed well, efficiently sorting a small dataset in minimal time with a low number of comparisons and swaps. For larger string datasets, or strings with more complex comparison logic, hybrid approaches or specialized string sorting algorithms (e.g., radix sort, Timsort) might be more efficient.
